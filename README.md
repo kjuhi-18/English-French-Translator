@@ -1,4 +1,4 @@
-
+![banner](./project_banner.png)
 
 # 🌍 English–French Transformer Translator  
 
@@ -28,8 +28,7 @@ It demonstrates the **complete workflow**:
 ---
 
 ## 🔎 Auto-detected Details
-- 📒 Notebook file: `eng_fre_modified (3).ipynb`  
-- 💻 Total cells: **56** (code: **56**, markdown: **0**)  
+- 📒 Notebook file: `eng_fre.ipynb`  
 - 📦 Detected imports: `matplotlib, numpy, pathlib, pickle, random, re, tensorflow, unicodedata`  
 - 🗂️ Data files referenced: `text_pair.pickle, vectorizer.pickle`  
 - 🛠️ Functions defined:  
@@ -55,4 +54,48 @@ Some plots & outputs generated during training:
 **Option A — Run the notebook (recommended):**
 ```bash
 pip install -r requirements.txt
-jupyter notebook "eng_fre_modified (3).ipynb"
+jupyter notebook eng_fre.ipynb
+Option B — Convert notebook to script & run:
+
+bash
+Copy code
+pip install -r requirements.txt
+jupyter nbconvert --to script eng_fre.ipynb
+python eng_fre.py
+📁 Repository Structure
+bash
+Copy code
+repo/
+├─ eng_fre.ipynb
+├─ README.md
+├─ requirements.txt
+├─ project_banner.png
+├─ notebook_images/     # extracted visuals
+└─ data/                # place your datasets here
+📦 Requirements
+Install dependencies with:
+
+bash
+Copy code
+pip install -r requirements.txt
+requirements.txt contains:
+
+arduino
+Copy code
+matplotlib
+numpy
+pathlib
+pickle
+random
+re
+tensorflow
+unicodedata
+💡 Notes & Tips
+Consider exporting trained models into /models/ for reuse
+
+Add more visualization samples (e.g., attention heatmaps)
+
+Extend to multi-lingual translation by adding more datasets
+
+❤️ Contribute
+Feel free to fork, star ⭐, and improve this repo! Pull requests are welcome.
