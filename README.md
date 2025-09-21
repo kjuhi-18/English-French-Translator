@@ -31,11 +31,15 @@ It demonstrates the complete workflow:
 
 ### 1️⃣ Clone the repo
 git clone https://github.com/kjuhi-18/English-French-Translator.git
+
 cd English-French-Translator
+
 2️⃣ Install dependencies
+
 pip install -r requirements.txt
 
 3️⃣ Run the notebook
+
 jupyter notebook eng_fre.ipynb
 
 
