@@ -1,4 +1,4 @@
-![banner](./project_banner.png)
+![banner](./project_banner_eng_fre.png)
 
 # 🌍 English–French Transformer Translator  
 
