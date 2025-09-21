@@ -30,8 +30,8 @@ It demonstrates the complete workflow:
 ## 🛠️ Getting Started
 
 ### 1️⃣ Clone the repo
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/kjuhi-18/English-French-Translator.git
+cd English-French-Translator
 2️⃣ Install dependencies
 pip install -r requirements.txt
 
